@@ -73,3 +73,92 @@ These values are transcribed from the screenshots. Keep flags and recovered pass
 **Project type:** Cybersecurity / Ethical Hacking Lab  
 **Topic:** PDF password recovery using a wordlist  
 **Evidence:** Screenshots from the completed NetworkWalks practice exercise
+
+Password Formats: Supports various password hash formats, including:
+
+MD5
+
+SHA-based hashes
+
+bcrypt
+
+Unix password hashes
+Working Method: It compares candidate passwords against password hashes to identify matches.
+
+7. Features:
+
+Password strength testing
+
+Multiple hash format support
+
+Dictionary-based password auditing
+
+Customizable password rules
+
+Fast password recovery
+
+imitations: Password recovery depends on password complexity, hash type, and available computing resources.
+
+Advantages
+Free and open source.
+
+Supports many password hash formats.
+
+Useful for security testing.
+
+Works on multiple platforms.
+
+John the Ripper is a powerful password security auditing tool that helps security professionals identify weak passwords and improve password protection.
+
+Multiple Modes: Supports different password-testing modes, such as single crack, wordlist, and incremental modes.
+Wordlist Support: Uses a list of possible passwords to test password strength
+Incremental Mode: Generates password combinations to test password security.
+
+ Single Crack Mode: Uses information associated with a user account to test possible passwords.
+ Custom Rules: Allows users to define password variations and testing rules.
+Hash Identification: Can identify supported password hash formats.
+
+Performance: Supports optimized password-testing techniques for faster results.
+Community Support: Has an active open-source community that contributes improvements and updates
+
+Command-Line Interface: Provides command-line options for performing password security audits.
+
+Custom Configuration: Users can modify configuration settings according to their auditing requirements.
+Programming Language: Primarily written in C.
+
+ License: Open-source software distributed under multiple licenses, depending on the component.
+
+Project Type: Cybersecurity and password security auditing.
+
+Input: Accepts password hashes in supported formats.
+
+Output: Reports recovered passwords when successful.
+
+Security Awareness: Helps organizations understand the importance of strong passwords.
+
+ Password Policy Testing: Helps evaluate password policies within an organization.
+
+ Extensibility: Supports additional password hash formats through suitable plugins and extensions.
+
+Future Enhancements
+ Improved performance and optimization.
+
+ Support for additional hash formats.
+
+ Better user interface and reporting features.
+
+ Improved compatibility with modern operating systems.
+
+References
+Official website: https://www.openwall.com/john/ 
+
+Documentation: https://www.openwall.com/john/doc/ 
+
+Source code: https://github.com/openwall/john 
+
+README tip: You can organize your project README using these sections: Introduction, Features, Installation, Working Principle, Supported Formats, Advantages, Limitations, Applications, and Conclusion.
+
+
+ChatGPT is AI and can make mistakes.
+
+
